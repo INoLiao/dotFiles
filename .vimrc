@@ -45,10 +45,10 @@ set history=50               " keep 50 lines of command line history
 set number                   " enable line numbers
 set autoindent               " enable autoindent
 set expandtab                " use space instead of tab
-set tabstop=2                " insert 2 spaces for a tab
-set shiftwidth=2             " the number of space characters inserted for indentation
+set tabstop=4                " insert 4 spaces for a tab
+set shiftwidth=4             " the number of space characters inserted for indentation
+set softtabstop=4            " simulation of delete a tab
 syntax on                    " enable syntax highlighting
-colors Tomorrow-Night-Bright " vim color scheme
 set autoread                 " auto read when file is changed from outside
 set history=50               " keep 50 lines of command line history
 set mouse=a                  " mouse support
@@ -64,6 +64,15 @@ set clipboard=unnamed        " yank to the system register (*) by default
 set showmatch                " Cursor shows matching ) and }
 set showmode                 " Show current mode
 set backspace=2              " make backspace work like most other apps
+
+" Set schemes
+au ColorScheme Tomorrow-Night-Bright hi Normal ctermbg=None
+au ColorScheme monokai hi Normal ctermbg=None
+au ColorScheme PaperColor hi Normal ctermbg=None
+colors Tomorrow-Night-Bright " vim color scheme
+" colors monokai               " vim color scheme
+" colors PaperColor            " vim color scheme
+
 
 
 
