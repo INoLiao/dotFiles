@@ -1544,13 +1544,13 @@ fun! s:apply_syntax_highlightings()
   exec 'hi pythonException' . s:fg_purple . s:ft_bold
   exec 'hi pythonInclude' . s:fg_red
   exec 'hi pythonStatement' . s:fg_pink
-  exec 'hi pythonConditional' . s:fg_purple . s:ft_bold
+  exec 'hi pythonConditional' . s:fg_purple
   exec 'hi pythonRepeat' . s:fg_purple . s:ft_bold
-  exec 'hi pythonFunction' . s:fg_aqua . s:ft_bold
+  exec 'hi pythonFunction' . s:fg_aqua
   exec 'hi pythonPreCondit' . s:fg_purple
   exec 'hi pythonExClass' . s:fg_orange
   exec 'hi pythonOperator' . s:fg_purple . s:ft_bold
-  exec 'hi pythonBuiltin' . s:fg_foreground
+  exec 'hi pythonBuiltin' . s:fg_olive
   exec 'hi pythonDecorator' . s:fg_orange
 
   exec 'hi pythonString' . s:fg_olive

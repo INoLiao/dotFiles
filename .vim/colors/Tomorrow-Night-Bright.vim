@@ -323,6 +323,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("pythonPreCondit", s:purple, "", "")
 	call <SID>X("pythonRepeat", s:aqua, "", "")
 	call <SID>X("pythonExClass", s:orange, "", "")
+	call <SID>X("pythonBuiltin", s:red, "", "")
 
 	" JavaScript Highlighting
 	call <SID>X("javaScriptBraces", s:foreground, "", "")

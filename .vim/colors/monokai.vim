@@ -630,6 +630,7 @@ hi! link pythonParam       SublimeContextParam
 " XXX: pythonStatement covers a bit too much...unfortunately, this means that
 " some keywords, like `def`, can't be highlighted like in Sublime yet.
 hi! link pythonStatement   Keyword
+hi! link pythonBuiltin     Tag
 " XXX: Other known deficiencies:
 "
 " * Python special regexp sequences aren't highlighted. :\

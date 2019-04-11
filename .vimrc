@@ -140,3 +140,11 @@ let g:ctrlp_show_hidden = 1
 
 " --- Enable ctrl-c
 map <C-c> y:e ~/clipsongzboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
+
+" --- python highlight
+" let python_no_number_highlight = 1
+" let python_no_builtin_highlight = 1
+" let python_no_exception_highlight = 1
+" let python_no_doctest_highlight = 1
+" let python_space_error_highlight = 1
+" let python_highlight_all = 1
