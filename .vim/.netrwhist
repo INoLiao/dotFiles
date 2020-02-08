@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/ino/Projects/lintcode/045_MaximumSubarrayDifference'
-let g:netrw_dirhist_2='/Users/ino/Projects/lintcode'
-let g:netrw_dirhist_3='/Users/ino/Projects/lintcode/044_MinimumSubarray'
-let g:netrw_dirhist_4='/Users/Shared'
-let g:netrw_dirhist_5='/Users'
-let g:netrw_dirhist_6='/Users/ino/Projects/dotFiles'

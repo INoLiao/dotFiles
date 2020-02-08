@@ -332,6 +332,16 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("javaScriptRepeat", s:purple, "", "")
 	call <SID>X("javaScriptNumber", s:orange, "", "")
 	call <SID>X("javaScriptMember", s:orange, "", "")
+	call <SID>X("javaScriptExtend", s:purple, "", "")
+
+    " Java Highlighting
+	call <SID>X("javaBraces", s:foreground, "", "")
+	call <SID>X("javaFunction", s:purple, "", "")
+	call <SID>X("javaConditional", s:purple, "", "")
+	call <SID>X("javaRepeat", s:purple, "", "")
+	call <SID>X("javaNumber", s:orange, "", "")
+	call <SID>X("javaMember", s:orange, "", "")
+	call <SID>X("javaExtend", s:purple, "", "")
 
 	" HTML Highlighting
 	call <SID>X("htmlTag", s:red, "", "")
