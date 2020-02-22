@@ -43,6 +43,7 @@ Bundle 'gmarik/vundle'
 filetype plugin indent on    " enable filetype-specific plugins
 set history=50               " keep 50 lines of command line history
 set number                   " enable line numbers
+set ruler                    " enable row and column numbers
 set autoindent               " enable autoindent
 set expandtab                " use space instead of tab
 set tabstop=4                " insert 4 spaces for a tab
